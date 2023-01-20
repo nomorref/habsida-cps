@@ -1,12 +1,12 @@
 @font-face {
     font-family: "TTLakesRegular";
-    src: url('./fonts/TTLakes-Regular.ttf') format("truetype");
+    src: url('./assets/fonts/TTLakes-Regular.ttf') format("truetype");
     font-style: normal;
     font-weight: normal;
 }
 @font-face {
     font-family: "TTLakesBold";
-    src: url('./fonts/TTLakes-Bold.ttf') format("truetype");
+    src: url('./assets/fonts/TTLakes-Bold.ttf') format("truetype");
     font-style: normal;
     font-weight:normal;
 }
