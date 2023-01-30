@@ -81,6 +81,12 @@ ul{
     left: 0;
     height: 100%;
 }
+.sidebar__menu .menu--active{
+    color: gray;
+}
+.language-buttons--active{
+    color:gray;
+}
 
 .sidebar__menu li:not(:last-child){
     margin-bottom: 32px;
