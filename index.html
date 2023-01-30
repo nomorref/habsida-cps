@@ -10,8 +10,63 @@
   <body>
     <header class="header">
       <nav class="header__nav">
+        <aside class="sidebar">
+          <div>
+            <header class="sidebar__buttons">
+              <div>
+                <button class="close-menu-btn">
+                  <img src="./assets/images/icons/cross icon.svg" alt=" " />
+                </button>
+                <a href="#">
+                  <img src="./assets/images/icons/logo 2.svg" alt="logo" />
+                </a>
+              </div>
+              <button>
+                <img
+                  src="./assets/images/icons/sidebar-search.svg"
+                  alt="search"
+                />
+              </button>
+            </header>
+            <ul class="sidebar__menu">
+              <li class="menu--active">Ремонт техники</li>
+              <li>Услуги и сервисы</li>
+              <li>Корпоративным клиентам</li>
+              <li>Продавцам техники</li>
+              <li>Партнерам</li>
+              <li>Производителям</li>
+              <li>Наши сервисные центры</li>
+              <li>Контакты</li>
+            </ul>
+          </div>
+          <footer class="sidebar__footer">
+            <div class="footer__buttons">
+              <button>
+                <img src="./assets/images/icons/phone-sidebar.svg" />
+              </button>
+              <button>
+                <img src="./assets/images/icons/chat-sidebar.svg" />
+              </button>
+              <button>
+                <img src="./assets/images/icons/profile-sidebar.svg" />
+              </button>
+            </div>
+
+            <div class="footer__contacts">
+              <a class="contacts__mail"> mail@cps.com </a>
+              <br />
+              <a class="contacts__phone">8 800 890 8900</a>
+            </div>
+
+            <div class="language-buttons">
+              <button>RU</button>
+              <button>EN</button>
+              <button>CH</button>
+            </div>
+          </footer>
+        </aside>
         <div class="nav__left-block">
-          <div class="nav-link">
+          <div class="nav-link nav-link--open">
             <a href="#">
               <img src="./assets/images/icons/burger.svg" alt="burger icon" />
             </a>
@@ -102,5 +157,7 @@
         />
       </div>
     </main>
+
+    <script src="script.js"></script>
   </body>
 </html>
